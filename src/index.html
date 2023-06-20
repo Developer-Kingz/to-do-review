@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="main-container">
+            <header>
+                <div class="main-header">
+                    <h2>Today's ToDo List</h2>
+                </div>
+                <form id="new-task-form">
+                    <input
+                        type="text"
+                        id="new-task-input"
+                        placeholder="please enter a task"
+                    />
+                </form>
+            </header>
+
+            <main>
+                <div id="task-list"></div>
+                <div id="clear">Clear all completed</div>
+            </main>
+        </div>
+        <script src="./index.js"></script>
+    </body>
+</html>

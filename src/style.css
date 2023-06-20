@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: azure;
+}
+
+.main-container {
+    width: 70vw;
+    margin: auto;
+    background-color: white;
+    margin-top: 10vh;
+    border: 1px solid gray;
+}
+
+.main-header {
+    width: 100%;
+    height: 10vh;
+    border: 1px solid gray;
+}
+
+.main-header h2 {
+    margin-left: 2vw;
+    margin-top: 2vh;
+    color: gray;
+}
+
+#new-task-input {
+    width: 96.8%;
+    height: 10vh;
+    font-size: 1.5vw;
+    padding-left: 2vw;
+}
+
+#clear {
+    width: 100%;
+    height: 10vh;
+    text-align: center;
+    padding-top: 3vh;
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+#task-list {
+    list-style: none;
+}
+
+.incomplete {
+    border: 1px solid black;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
+
+.cancel-line {
+    text-decoration: line-through;
+}
+
+.completed {
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    height: 10vh;
+}
+
+.checkbox {
+    margin-left: 3vw;
+}
+
+.check-div {
+    width: 3vw;
+    border: 1px solid black;
+}
+
+.delete-btn {
+    position: absolute;
+    right: 16vw;
+}
+
+.edit-btn {
+    position: absolute;
+    right: 20vw;
+}
+
+.input-text {
+    width: 55vw;
+    height: 8vh;
+    margin-right: 3vw;
+    border: none;
+
+    /* outline: none; */
+}
